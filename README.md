@@ -6,6 +6,8 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![MCP](https://img.shields.io/badge/MCP-compatible-6E56CF.svg)
 
+<p align="center"><img src="demo.gif" alt="deepseek-mcp-server demo" width="760"></p>
+
 One Python file, four tools, no framework lock-in. Bring your own DeepSeek key and you get fast V3 generation, multi-turn chat, and R1 deep reasoning that shows its work — straight from your assistant.
 
 ## ✨ Tools
