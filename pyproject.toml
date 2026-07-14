@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepseek-mcp-server"
+version = "0.1.0"
+description = "A small, clean MCP server for the DeepSeek API (generate, chat, R1 reasoning, models)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["mcp>=1.2.0", "httpx>=0.27.0", "pydantic>=2.6.0"]
+
+[tool.setuptools]
+py-modules = ["deepseek_mcp"]
