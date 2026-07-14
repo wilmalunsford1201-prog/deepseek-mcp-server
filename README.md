@@ -33,7 +33,7 @@ It asks for your API key, installs dependencies, and wires up Claude Desktop. Re
 ### Option B — manual (any OS / any MCP client)
 
 ```bash
-git clone https://github.com/wilmalunsford1201-prog/deepseek-mcp-server.git
+git clone https://github.com/deepzhun/deepseek-mcp-server.git
 cd deepseek-mcp-server
 pip install -r requirements.txt
 export DEEPSEEK_API_KEY="your-api-key"     # Windows: setx DEEPSEEK_API_KEY "your-api-key"
@@ -79,8 +79,8 @@ python -c "import deepseek_mcp; print(deepseek_mcp.mcp.name)"   # smoke test
 ```
 
 Single-file server (`deepseek_mcp.py`): typed Pydantic inputs, consistent error
-handling, MCP tool annotations. A sibling of [gemini-mcp-server](https://github.com/wilmalunsford1201-prog/gemini-mcp-server) — same clean shape, different provider.
+handling, MCP tool annotations. A sibling of [gemini-mcp-server](https://github.com/deepzhun/gemini-mcp-server) — same clean shape, different provider.
 
 ## 📄 License
 
-MIT © shenzhun (深准). Contributions welcome — open an issue or PR.
+MIT © deepzhun (深准). Contributions welcome — open an issue or PR.
